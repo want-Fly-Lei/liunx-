@@ -1,0 +1,7 @@
+touch如果文件在将文件的访问和修改时间更新为当前时间，文件不存在则创建它。
+/*一般来说mkdir创建的是文件夹，而touch是文件*/
+touch liunx下20个常用命令/1.ls.txt:
+/*更新时间戳*/
+/*利用ls检测更新*/
+ls  liunx下20个常用命令/1.ls.txt -l:
+-rw-rw-r-- 1 lei lei 696 2月  12 19:57 liunx下20个常用命令/1.ls.txt

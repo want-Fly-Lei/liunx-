@@ -1,0 +1,4 @@
+mkdirm（make diretory的缩写），就是用于创建文件。
+mkdirm test:
+/*结果创建出一个名为test的文件,如果存在则会返回错误信息
+在liunx中文件包含（文件，文件夹，驱动，命令，脚本等）*/

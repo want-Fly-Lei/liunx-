@@ -1,0 +1,49 @@
+用于查询连接机子的设备和磁盘。
+lsblk:[列出块设备（除了ram外），树状图]
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0  99.4M  1 loop /snap/core/11993
+loop1    7:1    0     4K  1 loop /snap/bare/5
+loop2    7:2    0 110.5M  1 loop /snap/core/12603
+loop3    7:3    0  55.5M  1 loop /snap/core18/2253
+loop4    7:4    0  55.5M  1 loop /snap/core18/2284
+loop5    7:5    0  61.9M  1 loop /snap/core20/1270
+loop6    7:6    0  61.9M  1 loop /snap/core20/1328
+loop7    7:7    0 164.8M  1 loop /snap/gnome-3-28-1804/161
+loop8    7:8    0   219M  1 loop /snap/gnome-3-34-1804/72
+loop9    7:9    0   219M  1 loop /snap/gnome-3-34-1804/77
+loop10   7:10   0 247.9M  1 loop /snap/gnome-3-38-2004/87
+loop11   7:11   0  65.1M  1 loop /snap/gtk-common-themes/1515
+loop12   7:12   0    51M  1 loop /snap/snap-store/547
+loop13   7:13   0  65.2M  1 loop /snap/gtk-common-themes/1519
+loop14   7:14   0  54.2M  1 loop /snap/snap-store/558
+loop15   7:15   0  43.3M  1 loop /snap/snapd/14295
+loop16   7:16   0  43.4M  1 loop /snap/snapd/14549
+sda      8:0    0    50G  0 disk 
+├─sda1   8:1    0   512M  0 part /boot/efi
+├─sda2   8:2    0     1K  0 part 
+└─sda5   8:5    0  49.5G  0 part /
+sr0     11:0    1  1024M  0 rom
+lsblk -l:[列表形式列出]
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0  99.4M  1 loop /snap/core/11993
+loop1    7:1    0     4K  1 loop /snap/bare/5
+loop2    7:2    0 110.5M  1 loop /snap/core/12603
+loop3    7:3    0  55.5M  1 loop /snap/core18/2253
+loop4    7:4    0  55.5M  1 loop /snap/core18/2284
+loop5    7:5    0  61.9M  1 loop /snap/core20/1270
+loop6    7:6    0  61.9M  1 loop /snap/core20/1328
+loop7    7:7    0 164.8M  1 loop /snap/gnome-3-28-1804/161
+loop8    7:8    0   219M  1 loop /snap/gnome-3-34-1804/72
+loop9    7:9    0   219M  1 loop /snap/gnome-3-34-1804/77
+loop10   7:10   0 247.9M  1 loop /snap/gnome-3-38-2004/87
+loop11   7:11   0  65.1M  1 loop /snap/gtk-common-themes/1515
+loop12   7:12   0    51M  1 loop /snap/snap-store/547
+loop13   7:13   0  65.2M  1 loop /snap/gtk-common-themes/1519
+loop14   7:14   0  54.2M  1 loop /snap/snap-store/558
+loop15   7:15   0  43.3M  1 loop /snap/snapd/14295
+loop16   7:16   0  43.4M  1 loop /snap/snapd/14549
+sda      8:0    0    50G  0 disk 
+sda1     8:1    0   512M  0 part /boot/efi
+sda2     8:2    0     1K  0 part 
+sda5     8:5    0  49.5G  0 part /
+sr0     11:0    1  1024M  0 rom

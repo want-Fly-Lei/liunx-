@@ -1,0 +1,7 @@
+mv是move的意思，相比cp它是移动
+mv in.txt in:
+tree in:[这里我用tree查看的]
+in
+└── in.txt
+
+0 directories, 1 file

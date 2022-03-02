@@ -1,0 +1,12 @@
+相比这些命令，还有一些我觉得挺实用的命令
+clear：[清屏]
+exit;[退出终端]
+rm -rf:[删除命令]
+kill:[杀死正在进行或者dest的进程]
+find:[查找命令]
+grep:[某一行中是含有子串就显示]
+reboot:[重启]
+shutdown:[关机]
+vim:[编辑文本（需要下载），可用vi，gedit（文本编辑器），code（vscode）来编辑文件]
+echo:[输出内容]
+help:[相关shell帮助文档]

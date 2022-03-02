@@ -1,0 +1,10 @@
+chown命令就是改变文件拥有者和所在用户组。
+/*test修改前*/
+ls test.txt -l:
+-rw-rw-r-- 1 lei lei 24 3月   2 22:04 test.txt
+[可以看出它是属于类这个用户lei和用户组lei]
+/*修改后*/
+chown lei:adm test.txt:
+
+ls test.txt -l:
+-rw-rw-r-- 1 lei adm 24 3月   2 22:04 test.txt

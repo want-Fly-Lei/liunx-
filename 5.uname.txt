@@ -1,0 +1,6 @@
+uname（unix name的缩写，显示机器名）
+uname:
+Linux
+uname -a:[会进行更详细的说明]
+Linux ubuntu 5.13.0-28-generic #31~20.04.1-Ubuntu SMP Wed Jan 19 14:08:10 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+/*Liunx:机器内核名。ubuntu:机器节点名。5.13.0-28-generic:内核发布版本。1~20.04.1-Ubuntu SMP:内核版本。x86_64:处理器架构。GNU/Linux:操作系统名。*/

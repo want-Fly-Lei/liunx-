@@ -1,0 +1,4 @@
+apt[adcanced package tool的缩写]，在以debian为原型的liunx系统中，它会自动地搜索，安装和升级依赖。
+因为一般需要改一些文件，所有一般带有sudo命令。
+/*安装gcc*/
+sudo apt-get install gcc:

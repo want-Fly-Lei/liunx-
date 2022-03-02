@@ -1,0 +1,28 @@
+显示在终端中执行过的所有历史命令
+history:
+ 615  sudo apt-get install git build-essential gdb-multiarch qemu-system-misc gcc-riscv64-linux-gnu binutils-riscv64-linux-gnu
+  616  git checkout util
+  617  make qemu
+  618  xv6
+  619  qume
+  620  make qume
+  621  x
+  622  xa
+  623  make qume
+  624  reboot -f
+  625  make qume
+  626  xa
+  627  x
+  628  xa
+  629  ls
+  630  x
+  631  ax
+  632  x
+  633  make qume
+  634  ax
+  635  xa
+  636  make qemu
+  /*在终端执行的任务太多了，我就值列出一部分*/
+  /*按住control + r 后可以搜索曾经使用过的命令比如如下：
+  (reverse-i-search)`apt': sudo apt-get install flameshot
+  */

@@ -1,0 +1,6 @@
+sudo(super user do的缩写) 它允许用户执行超级用户(几乎可以加在任何命令最前面，获取管理员权限)，相比su命令更安全
+这个命令其实很常见了
+比如一些安装命令安装（gcc）
+sudo apt-get install gcc
+比如用管理员权限编辑东西
+sudo gedit 7.sudo.txt

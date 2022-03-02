@@ -1,0 +1,5 @@
+cp命令就是copy的意思，他会把一个文件复制到宁外一个地方
+cp test.txt test:
+ls test -l:
+总用量 4
+-rw-rw-r-- 1 lei lei 24 3月   2 23:09 test.txt
